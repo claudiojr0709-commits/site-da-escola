@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainCode - Livraria</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f1fa;
+            color: #333;
+        }
+
+        header {
+            background: #6842d9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #6842d9;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .inicio {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .inicio h2 {
+            color: #6842d9;
+            font-size: 30px;
+        }
+
+        .botao {
+            background: #6842d9;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .livros {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .livro {
+            display: inline-block;
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            width: 180px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px #0002;
+        }
+
+        .livro img {
+            width: 120px;
+            height: 170px;
+            object-fit: contain;
+        }
+
+        .livro h3 {
+            color: #6842d9;
+        }
+
+        footer {
+            background: #30234d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>BrainCode</h1>
+        <p>Sua próxima leitura começa aqui!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#livros">Livros</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section class="inicio" id="inicio">
+        <h2>Descubra novos livros</h2>
+        <p>Encontre histórias e conhecimentos para sua próxima leitura.</p>
+        <a href="#livros" class="botao">Ver livros</a>
+    </section>
+
+    <section class="livros" id="livros">
+        <h2>Nossos livros</h2>
+
+        <div class="livro">
+            <img src="https://covers.openlibrary.org/b/isbn/9788550807560-L.jpg"
+                 alt="Capa de Hábitos Atômicos">
+            <h3>Hábitos Atômicos</h3>
+            <p>James Clear</p>
+            <p>R$ 39,90</p>
+        </div>
+
+        <div class="livro">
+            <img src="https://covers.openlibrary.org/b/isbn/9788539004119-L.jpg"
+                 alt="Capa de O Poder do Hábito">
+            <h3>O Poder do Hábito</h3>
+            <p>Charles Duhigg</p>
+            <p>R$ 35,90</p>
+        </div>
+
+    </section>
+
+    <footer id="contato">
+        <p>BrainCode © 2026</p>
+        <p>Conhecimento e tecnologia em um só lugar.</p>
+    </footer>
+
+</body>
+</html>
